@@ -3,6 +3,26 @@
 ## Task1 install-kubeadm
 https://kubernetes.io/docs/setup/independent/install-kubeadm/  
 
+```
+//Install
+yum install -y chrony
+
+// 启用
+systemctl start chronyd
+systemctl enable chronyd
+
+// 设置亚洲时区
+timedatectl set-timezone Asia/Shanghai
+
+// 启用NTP同步
+timedatectl set-ntp yes
+```
+
+
+
+
+## Task2 create-cluster-kubeadm
+https://kubernetes.io/docs/setup/independent/create-cluster-kubeadm/
 
 
 
@@ -19,9 +39,9 @@ kubeadm init
 
 
 
-## Task2 create-cluster-kubeadm
-https://kubernetes.io/docs/setup/independent/create-cluster-kubeadm/
-
+# 参考
+k8s安装和集群初始化
+https://blog.csdn.net/Blanchedingding/article/details/80861293
 
 
 
