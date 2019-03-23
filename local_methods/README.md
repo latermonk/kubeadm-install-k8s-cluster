@@ -97,7 +97,7 @@ kubeadm config images pull --image-repository registry.aliyuncs.com/google_conta
 
 ```
 kubeadm init \
---apiserver-advertise-address=192.168.31.62 \
+--apiserver-advertise-address=192.168.0.182 \
 --image-repository registry.aliyuncs.com/google_containers \
 --kubernetes-version v1.13.3 \
 --service-cidr=10.1.0.0/16\
