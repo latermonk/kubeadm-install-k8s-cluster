@@ -19,6 +19,23 @@ yum list docker-ce --showduplicates | sort -r
 
 yum install -y docker-ce-your-specific-version 
 
+
+or
+
+wget  \
+https://download.docker.com/linux/centos/7/x86_64/stable/Packages/docker-ce-18.09.3-3.el7.x86_64.rpm \
+
+https://download.docker.com/linux/centos/7/x86_64/stable/Packages/containerd.io-1.2.4-3.1.el7.x86_64.rpm   \
+
+https://download.docker.com/linux/centos/7/x86_64/stable/Packages/docker-ce-cli-18.09.3-3.el7.x86_64.rpm
+
+then 
+
+yum localinstall  xxx
+
+
+
+
 ```
 
 ```
