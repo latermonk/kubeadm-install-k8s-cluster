@@ -88,11 +88,7 @@ https://kubernetes.io/docs/setup/independent/create-cluster-kubeadm/
 
 
 
-###  pull kubeadm init需要的镜像
 
-```
-kubeadm config images pull --image-repository registry.aliyuncs.com/google_containers
-```
 ### kubeadm init初始化
 
 ```
