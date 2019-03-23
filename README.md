@@ -94,3 +94,8 @@ kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/a70459be008450
 # 
 kubeadm join xxx
 ```
+
+
+# 参考
+k8s安装和集群初始化
+https://blog.csdn.net/Blanchedingding/article/details/80861293
