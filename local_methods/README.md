@@ -13,6 +13,12 @@ cd /etc/yum.repos.d
 wget  https://download.docker.com/linux/centos/docker-ce.repo
 yum install -y docker-ce
 
+or
+
+yum list docker-ce --showduplicates | sort -r
+
+yum install -y docker-ce-your-specific-version 
+
 ```
 
 ```
