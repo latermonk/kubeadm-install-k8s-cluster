@@ -1,6 +1,9 @@
 # kubeadm-install-k8s-cluster
 
 
+#  Local-method
+
+
 ## Task0 preparation
 
 ### Install docker
