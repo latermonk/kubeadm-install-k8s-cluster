@@ -128,15 +128,3 @@ kubeadm join xxx
 
 
 
-# 参考
-k8s安装和集群初始化
-https://blog.csdn.net/Blanchedingding/article/details/80861293
-
-
-
-# Issues:
-
-```
-this Docker version is not on the list of validated versions: 18.09.3. Latest validated version: 18.06
-```
-
