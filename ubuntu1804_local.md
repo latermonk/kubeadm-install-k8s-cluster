@@ -24,4 +24,23 @@ apt-get install -y kubelet kubeadm kubectl
 sudo snap install xxx.snap --dangerous --classic
 ```
 
+# 查看相关的安装包
+
+
+```
+kubeadm config images list
+```
+
+
+```
+k8s.gcr.io/kube-apiserver:v1.14.1
+k8s.gcr.io/kube-controller-manager:v1.14.1
+k8s.gcr.io/kube-scheduler:v1.14.1
+k8s.gcr.io/kube-proxy:v1.14.1
+k8s.gcr.io/pause:3.1
+k8s.gcr.io/etcd:3.3.10
+k8s.gcr.io/coredns:1.3.1
+
+```
+使用docker pull依次拉去镜像
 
