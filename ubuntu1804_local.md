@@ -44,3 +44,12 @@ k8s.gcr.io/coredns:1.3.1
 ```
 使用docker pull依次拉去镜像
 
+
+# 加入集群
+
+```
+
+kubeadm join 10.254.21.1:6443 --token u5fxvo.av8pyjmzbh2jkoxe \
+    --discovery-token-ca-cert-hash sha256:816f5313c57716fb6f760e3989f86fc27c2a762321ffdda83735d2edb184423d
+    
+```
